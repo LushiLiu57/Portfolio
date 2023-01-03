@@ -1,0 +1,157 @@
+.home {
+    width: 100%;
+    align-items: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: #3e497a;
+  }
+  
+  .introduction {
+    width: 100%;
+    height: calc(100vh - 100px);
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: center;
+    text-align: center;
+    background-image: url(../assets/Background.jpg);
+    color: #f0f0f0;
+    font-size:20px;
+  }
+  
+  .introduction h1 {
+    font-family:monospace;
+    font-size: 80px;
+    color: #4dac51;
+    height: 50px;
+  }
+  
+  .introduction .prompt {
+    width: 40%;
+    font-size: 30px;
+  }
+
+  .prompt svg {
+    font-size: 60px;
+    margin: 5px;
+    color: white;
+  }
+
+  .image-about {
+    height: 300px;
+    width: 300px;
+    margin: 20px;
+    float: left;
+    border-radius: 50%;
+  }
+  
+  .about-me {
+    font-size: 35px;
+    width: 100%;
+    /* display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center; */
+    border-bottom: solid #098;
+    border-bottom-width: 10px;
+    border-bottom-style: groove;
+  }
+
+  .about-me h2 {
+    color:rgb(6, 88, 78);
+    margin-bottom:100px;
+    justify-content:left;
+  }
+
+  .about-me p{
+    font-size: 20px;
+  }
+  
+  .education {
+    font-size: 35px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    border-top: solid #098;
+    border-top-width: 10px;
+    border-top-style:ridge;
+    margin-top:0%;
+    background-color: rgb(222, 246, 246);
+  }
+
+  .education h2 {
+    color:rgb(6, 88, 78);
+    margin: 30px;
+    margin-top: 60px;
+  }
+
+  .education h3 {
+    font-size: 25px;
+    color:#164fa4;
+    margin: 10px;
+  }
+
+  .education h4 {
+    font-size: 25px;
+    color:#000000;
+    margin: 10px;
+  }
+
+  .education p {
+    font-size: 20px;
+    color:#175bc1;
+    margin-top:80px;
+    margin-bottom:0;
+    font-weight:bold;
+  }
+
+  .education .course-list {
+    list-style:none;
+    font-size:20px;
+    margin-top:5px;
+    margin-right: 2.5%;
+    
+  }
+
+  .uoft-image {
+    height: 180px;
+    width: 180px;
+    margin: 10px;
+    border-radius: 50%;
+  }
+
+  .bold {
+    color:#098;
+    display: inline;
+  }
+
+  .highlight {
+    color:rgb(31, 31, 146);
+    font-style: oblique;
+    font-weight: bolder;
+  }
+  
+  @media only screen and (max-width: 600px) {
+    .introduction h1 {
+      font-size: 40px;
+    }
+  
+    .introduction .prompt {
+      margin-top: 10px;
+      font-size: 20px;
+      width: 80%;
+    }
+  
+    .about-me {
+      text-align: center;
+    }
+    .list {
+      padding: 0;
+    }
+  
+    .about-me h2 {
+      font-size: 30px;
+    }
+  }
+  

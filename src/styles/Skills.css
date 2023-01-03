@@ -1,0 +1,52 @@
+.skills {
+    width: 100%;
+    align-items: left;
+    text-align:left;
+    font-family: "Arial", sans-serif;
+    color: #3e497a;
+    font-size: 35px;
+    /* display: flex; */
+    /* justify-content:flex-start; */
+    /* flex-direction: column; */
+}
+
+.skills p{
+font-size: 20px;
+}
+
+.skills h2 {
+color: #3e497a;
+}
+
+.skills .list {
+list-style: none;
+width: 90%;
+}
+
+.list span {
+font-size: 20px;
+}
+
+@media only screen and (max-width: 600px) {
+    .introduction h1 {
+        font-size: 40px;
+    }
+
+    .introduction .prompt {
+        margin-top: 10px;
+        font-size: 20px;
+        width: 80%;
+    }
+
+    .about-me {
+        text-align: center;
+    }
+    .list {
+        padding: 0;
+    }
+
+    .about-me h2 {
+        font-size: 30px;
+    }
+}
+  
