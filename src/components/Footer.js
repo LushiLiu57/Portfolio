@@ -8,9 +8,9 @@ function Footer() {
     return (
         <div className='footer'>
             <div className='my-icons'>
-                <a href='www.linkedin.com/in/lushiliu/'><LinkedInIcon /></a>
+                <a href='https://www.linkedin.com/in/lushiliu/'><LinkedInIcon /></a>
                 <a href='https://github.com/LushiLiu57'><GitHubIcon /></a>
-                <EmailIcon />
+                <a><EmailIcon /></a>
             </div>
             <p>Lushi Liu</p>
         </div>

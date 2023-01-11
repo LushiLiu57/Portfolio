@@ -1,0 +1,87 @@
+.education {
+  font-size: 35px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(222, 246, 246);
+}
+
+.education h2 {
+  color:rgb(6, 88, 78);
+  margin-top: 100px;
+  margin-bottom: 10px;
+  font-family:Arial, Helvetica, sans-serif;
+  letter-spacing: 5px;
+}
+
+.education h3 {
+  font-size: 25px;
+  color:#164fa4;
+  margin: 10px;
+}
+
+.education h4 {
+  font-size: 25px;
+  color:#000000;
+  margin: 10px;
+}
+
+.education p {
+  font-size: 20px;
+  color:#175bc1;
+  margin-top:80px;
+  margin-bottom:0;
+  font-weight:bold;
+}
+
+.education .course-list {
+  list-style:none;
+  font-size:20px;
+  margin-top:5px;
+  margin-right: 2.5%;
+  
+}
+
+.uoft-image {
+  height: 180px;
+  width: 180px;
+  margin: 50px;
+  border-radius: 30%;
+}
+
+.bold {
+  color:#175bc1;
+  display: inline;
+}
+
+.highlight {
+  color:rgb(31, 31, 146);
+  font-style: oblique;
+  font-weight: bolder;
+}
+
+@media only screen and (max-width: 600px) {
+  .introduction h1 {
+    font-size: 40px;
+  }
+
+  .introduction .prompt {
+    margin-top: 10px;
+    font-size: 20px;
+    width: 80%;
+  }
+
+  .about-me {
+    text-align: center;
+  }
+  .list {
+    padding: 0;
+  }
+
+  .about-me h2 {
+    font-size: 30px;
+  }
+}
+  

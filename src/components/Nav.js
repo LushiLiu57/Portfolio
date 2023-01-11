@@ -19,6 +19,7 @@ function Nav() {
             </div>
             <div className='links'>
                 <Link to='/'> Home </Link>
+                <Link to='/education'> Education </Link>
                 <Link to='/projects'> Projects </Link>
                 <Link to='/skills'> Skills</Link>
             </div>

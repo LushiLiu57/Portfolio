@@ -3,6 +3,7 @@
     align-items: center;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     color: #3e497a;
+    background-color:rgb(222, 246, 246);
   }
   
   .introduction {
@@ -13,27 +14,47 @@
     justify-content: left;
     align-items: center;
     text-align: center;
-    background-image: url(../assets/Background.jpg);
+    background-image: url(../assets/DSC05341.jpg);
+    background-size:45% 100%;
+    background-repeat: no-repeat;
+    /* background-color:rgb(204, 246, 198); */
+    background-color:rgb(169, 226, 226);
     color: #f0f0f0;
     font-size:20px;
   }
   
   .introduction h1 {
-    font-family:monospace;
+    font-family:'Times New Roman', Times, serif;
     font-size: 80px;
-    color: #4dac51;
+    position: absolute;
+    text-align: left;
+    left:47%;
+    color: #245026;
     height: 50px;
+    transition: all 2s ease-in-out;
+    opacity: 0;
   }
   
   .introduction .prompt {
-    width: 40%;
     font-size: 30px;
+    position: absolute;
+    left:45%;
   }
 
   .prompt svg {
     font-size: 60px;
     margin: 5px;
-    color: white;
+    
+  }
+
+  .desc {
+    font-size: 30px;
+    position: absolute;
+    left:47%;
+    top:70%;
+    color: rgb(0, 0, 0);
+    transition: all 3s ease-in-out;
+    opacity:0;
   }
 
   .image-about {
@@ -46,81 +67,23 @@
   
   .about-me {
     font-size: 35px;
-    width: 100%;
-    /* display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center; */
-    border-bottom: solid #098;
-    border-bottom-width: 10px;
-    border-bottom-style: groove;
+    width: 80%;
+    margin-top:200px;
+    margin-left:100px;
   }
 
   .about-me h2 {
     color:rgb(6, 88, 78);
     margin-bottom:100px;
     justify-content:left;
+    font-family:Arial, Helvetica, sans-serif;
+    letter-spacing: 5px;
   }
 
   .about-me p{
-    font-size: 20px;
+    font-size: 15px;
   }
   
-  .education {
-    font-size: 35px;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-    border-top: solid #098;
-    border-top-width: 10px;
-    border-top-style:ridge;
-    margin-top:0%;
-    background-color: rgb(222, 246, 246);
-  }
-
-  .education h2 {
-    color:rgb(6, 88, 78);
-    margin: 30px;
-    margin-top: 60px;
-  }
-
-  .education h3 {
-    font-size: 25px;
-    color:#164fa4;
-    margin: 10px;
-  }
-
-  .education h4 {
-    font-size: 25px;
-    color:#000000;
-    margin: 10px;
-  }
-
-  .education p {
-    font-size: 20px;
-    color:#175bc1;
-    margin-top:80px;
-    margin-bottom:0;
-    font-weight:bold;
-  }
-
-  .education .course-list {
-    list-style:none;
-    font-size:20px;
-    margin-top:5px;
-    margin-right: 2.5%;
-    
-  }
-
-  .uoft-image {
-    height: 180px;
-    width: 180px;
-    margin: 10px;
-    border-radius: 50%;
-  }
-
   .bold {
     color:#098;
     display: inline;
